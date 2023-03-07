@@ -1,48 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-    <title>[Sydney Dizon] IT202 Assignment 1</title>
-
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-     <link rel="stylesheet" href="ass1dropdown.css">
-     
-    
-  </head>
-  <body>
-
-    <div class="main">
-      <div class="flex-container">
-        <div class="home">
-          Happy Tails Hotel 
-          <p>
-            Form Submission
-          </p>
-        </div>
-
-        <div class="text">
-            <form>
-                <div class="question">
-                    <td>Receptionist's First Name:</td>
-                    <input type="text" id="firstname" placeholder="Example: Jane" name="firstname" required>
-                    <td class="red">REQUIRED</td>
-                </div>
-                <div class="question">
-                    <td>Receptionist's Last Name:</td>
-                    <input type="text" id="lastname" placeholder="Example: Doe" name="lastname" required>
-                    <td class="red">REQUIRED</td>
-                </div>
-                <div class="question">
-                    <td>Receptionist's Password:</td>
-                    <input type="password" id="password" placeholder="Example: Puppy@1" name="password" required>
-                    <td class="red">REQUIRED</td>
-                </div>
-                <div class="question">
-                    <td>Receptionist's ID Number:</td>
-                    <input type="text" id="id" placeholder="Example: 142796" name="id" required>
-                    <td class="red">REQUIRED</td>
-                </div>
-                <div class="question"><!doctype html>
+<!doctype html>
+<!-- COLOR PALETTE:
+White: #eef0f2
+Silver: #c6c7c4
+Brown-Gray: #C4BDC1
+Brown: #846a6a
+Mid Brown: #846A6A
+Dark Brown: #533636
+-->
 <html>
   <head>
     <title>Sydney Dizon's Virtual Resume</title>
@@ -52,25 +16,19 @@
   <body>
     <div class="background">
     <header>
-      <a href="#" class="logo">Sydney Dizon</a>
+      <a class="logo">Sydney Dizon</a>
       <ul>
+        <!--Navigation bar, icons and corresponding links to other html files-->
         <li class="navigationbar"><a href="index.html" class="active"><i class="fa fa-home"></i> Home</a></li>
-        <li class="navigationbar"><a href="about.html"><i class="fa fa-book"></i> About</a></li>
+        <li class="navigationbar"><a href="portfolio.html"><i class="fa fa-book"></i> Portfolio</a></li>
+        <li class="navigationbar"><a href="about.html"><i class="fa fa-user"></i> About</a></li>  
         <li class="navigationbar"><a href="contact.html"><i class="fa fa-pencil"></i> Contact</a></li>  
-    <!--
-    Side Projects
+      
 
-    Other Portfolios:
-    Devpost: https://devpost.com/sydneydizoncs?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav
-    GitHub: https://github.com/sydneydizoncs
-    YT: https://www.youtube.com/channel/UCbvDICVbrQdAz-TFBF-h1BA
-    Robotics: https://docs.google.com/presentation/d/11R72BcSno_8Zm9V36bEK9W7G2qpZytiEYlQuRUqYBWg/edit?usp=sharing
-    -->
       </ul>
     </header>
       <h2 class="name1" id="text"> Sydney Dizon: <br>A Virtual Resume</h2>
     <section> 
-      <img src="http://peg-s3-bucket.s3.amazonaws.com/spongebob-wherepants/images/foreground.png" id="foreground">
     </section>
     <div class="sec">
       <h2>
@@ -81,75 +39,24 @@
       </h3>
       <p>
         Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.  <br><br> Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.
+        hellohello hellohello hello.  <br><br>
       </p>
       <h3>
         Experience
       </h3>
       <p>
         Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.  <br><br> Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.
+        hellohello hellohello hello.  <br><br>
       </p>
       <h3>
         Relevant Coursework
       </h3>
       <p>
         Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.  <br><br> Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.Hello hello hello hello hello hello hellohello hellohello hellohello hellohello hellohello 
-        hellohello hellohello hello.
+        hellohello hellohello hello.  <br><br>
       </p>
-      <h3>
-      My Favorite Books
-      </h3>
-      <p>
-        No Longer Human by Osamu Dazai <br><br> 
-        The Ones Who Walk Away from Omelas by Ursula K LeGuin <br><br>
-        Nineteen Eighty Four by George Orwell
-      </p>
-    </div>
-    </div>
-  </body>
-</html>
-                    <td>Receptionist's Phone Number:</td>
-                    <input type="text" id="phone" placeholder="Example: 555-555-5555" name="phonenumber" required>
-                    <td class="red">REQUIRED</td>
-                </div>
-                <div class="question">
-                    <td>Receptionist's Email Address:</td>
-                    <input type="text" id="email" placeholder="Example: tails@hotel.com" name="email">     
-                </div>
-                <div class="question">
-                    <input type="checkbox">
-                    <td>Check the box to request an Email Conformation.</td>
-                </div>
-                <div class="question">
-                    <td>Select a transaction:</td>
-                    <select name="dropdown" id="transactionType">
-                      <option value="bookStay">Book a Stay</option>
-                      <option value="cancelStay">Cancel a Stay</option>
-                      <option value="addPerks">Request Additional Perks During a Stay</option>
-                      <option value="cancelPerks">Cancel Perks</option>
-                      <option value="changePerks">Change Perks</option>
-                      <option value="newAccount">Create a New Client Account</option>
-                    </select>
-                </div>
-                <div>
-                  <input type="submit" value="Submit" onclick="validation()">
-                    <button id="reset">Reset</button>
-                </div>
-            </form>   
-                
-                
-          </div>
-      </div>
-    </div>
-    
-  </body>
-  <script src="assignment2script.js"></script>
-</html>
 
+    </div>
+    </div>
+  </body>
+</html>
